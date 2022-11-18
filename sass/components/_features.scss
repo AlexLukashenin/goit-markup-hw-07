@@ -1,11 +1,11 @@
-.card-list {
+.features__list {
   display: flex;
   gap: 30px;
 }
-.card-list__item{
+.features__item {
   max-width: 270px;
 }
-.card-list__wrapper {
+.features__wrapper {
   display: flex;
   border-radius: 4px;
   background-color: var(--background-color);
@@ -15,13 +15,13 @@
   margin-bottom: 30px;
 }
 
-.card-list__title {
+.features__title {
   @include font(14, 1.14, 700, 0.03);
   text-transform: uppercase;
   color: var(--main-text-color);
   margin-bottom: 10px;
 }
-.card-list__text {
+.features__text {
   @include font(14, 1.71, null, 0.03);
-   color: var(--title-text-color);
+  color: var(--title-text-color);
 }
